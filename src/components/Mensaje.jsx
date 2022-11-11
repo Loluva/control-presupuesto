@@ -1,5 +1,3 @@
-import React, { Children } from 'react';
-
 function Mensaje({ children, tipo }) {
   return <div className={`alerta ${tipo}`}>{children}</div>;
 }

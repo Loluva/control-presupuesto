@@ -7,7 +7,7 @@ export const generarId = () => {
 export const formatearCantidad = cantidad => {
   const opciones = {
     style: 'currency',
-    currency: 'USD',
+    currency: 'COP',
   };
   return cantidad.toLocaleString('en-US', opciones);
 };
