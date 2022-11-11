@@ -404,3 +404,57 @@ body .modal {
   font-size: 2.4rem;
   text-align: right;
 }
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .contenedor-presupuesto {
+    padding: 0;
+  }
+  .formulario input[type='text'].nuevo-presupuesto,
+  .formulario input[type='number'].nuevo-presupuesto {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .contenido-presupuesto p {
+    font-size: 20px;
+  }
+  .modal .formulario {
+    width: 90%;
+  }
+  .modal .cerrar-modal {
+    z-index: 20;
+  }
+  .listado-gastos h2 {
+    font-size: 2rem;
+  }
+  .gasto {
+    padding: 40px 10px;
+  }
+  .contenido-gasto img {
+    width: 30%;
+  }
+  .descripcion-gasto .categoria,
+  .descripcion-gasto .nombre-gasto {
+    font-size: 16px;
+  }
+  .descripcion-gasto .fecha-gasto {
+    font-size: 14px;
+  }
+  .cantidad-gasto {
+    font-size: 20px;
+  }
+  .filtros label {
+    font-size: 2rem;
+  }
+
+  .contenedor-presupuesto svg {
+    margin: 2rem 0;
+  }
+  .reset-app {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+}
